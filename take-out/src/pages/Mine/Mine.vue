@@ -7,7 +7,7 @@
             </el-col>
         </el-row>
     </header>
-    <div class="login">
+    <router-link to="/login" class="login">
             <el-row style="color: white">
                 <el-col :span="4">
                     <img src="./头像.png" alt="" style="width: 32px;height: 32px;margin-left: 10px">
@@ -24,7 +24,7 @@
                     <i class="el-icon-arrow-right" style="line-height:42px;float: right;margin-right: 5px"></i>
                 </el-col>
             </el-row>
-    </div>
+    </router-link>
     <div class="mine-number" style="text-align: center">
         <el-row>
             <el-col :span="8" style="border-right:1px solid gray">
@@ -74,6 +74,7 @@
         justify-content:center ;
     }
     .login{
+        display:block
         background:  red
         height 60px
         width 100%

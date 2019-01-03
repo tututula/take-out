@@ -176,6 +176,7 @@
     .shop-container{
         margin-top: 20px;
         border-top: 20px solid rgba(174, 182, 191,.2);
+        padding-bottom:50px;
     }
 
 </style>
